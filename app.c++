@@ -3,7 +3,7 @@
 #include "DHT.h"
 #include <PubSubClient.h>
 
-const char *SSID = "Wokwi-GUEST";
+const char *SSID = ""; - //Por questões de segurança, não coloquei a senha do wifi utilizado
 const char *PASSWORD = ""; 
 
 const char *BROKER_MQTT = "broker.hivemq.com";
